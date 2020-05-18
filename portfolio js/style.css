@@ -1,0 +1,207 @@
+/* nav-bar*/
+.navigation-head{
+    height:30vh; 
+    padding:5%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+.navbar-style {
+    
+    margin-left:35%;
+}
+/*cover*/
+.maincover{
+    position: relative;
+    background-image:url('image/section1-bg.png');
+    background-size: cover;
+    width:100%;
+    height:600px; 
+   
+}
+.Rencontrez-moi{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.24);
+    bottom: 30%;
+    left:10%;
+    height:60%;
+    padding:10%;
+    color:rgb(235, 187, 159)
+    
+ 
+  
+   
+}
+/*A propos*/
+.Titles{
+    margin-top:10%;
+    font-size:72px;
+    color:rgb(219, 200, 190);
+}
+.Qui-je-suis{
+    display: flex;
+    margin-top:20vh;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.paragraphe-apropos{
+    background-color: rgb(219,200,190);
+    padding:2%
+}
+.cover-mescompétences{
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top:20vh;
+    
+}
+.mes-compétences {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .image-mescompétence{
+
+      height:90vh;
+      width:100%
+  }
+.language-logo{
+    display: flex;
+    justify-content: space-between;
+  
+    margin-top:10%;
+}
+.img-logo{
+    width: 200px;
+    height:200px;
+}
+.logo-titles{
+    display: block;
+    margin-top:20%;
+    margin-left:35%;
+}
+
+
+.cards-compétences{
+    display: flex;
+    justify-content: space-between;
+    margin-top:10%;
+}
+/*portfolio*/
+.description-portfolio{
+    font-size:15px;
+    margin-bottom:10%;
+    width:50%;
+    margin-left:25%;
+    text-align:justify;
+    
+}
+/*blog*/
+
+.b1{
+    display: flex;
+  
+margin-bottom:10px;
+   
+}
+.b2{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.b3{
+    display: flex;
+justify-content: space-between;
+margin-top:10px;
+}
+/*contacter-moi*/
+.contact-me{
+
+
+background-color: rgba(180, 132, 132, 0.404);
+margin-top:10%;
+
+}
+.moi{
+    margin-right:10%;
+    margin-bottom:10%;
+    font-size: 40px;;
+}
+.Nom-et-prénom{
+    width:40%;
+    background-color: transparent;
+    margin-left:3%;
+    border-top: none;
+    border-left:none;
+    border-right:none;
+    border-bottom:1px solid black;
+
+}
+.email{
+    margin-left:10%;
+    width:40%;
+    background-color: transparent;
+    border-top: none;
+    border-left:none;
+    border-right:none;
+    border-bottom:1px solid black;
+
+}
+.objet{
+    margin-top:5%;
+    margin-left:3%;
+    width:90.5%;
+    background-color: transparent;
+    border-top: none;
+    border-left:none;
+    border-right:none;
+    border-bottom:1px solid black;
+
+}
+.message{
+    margin-top:5%;
+    margin-left:3%;
+    width:90.5%;
+    height:100px;
+    background-color: transparent;
+    border-top: none;
+    border-left:none;
+    border-right:none;
+    border-bottom:1px solid black;
+}
+.button{
+    margin-bottom:1%;
+    margin-top:2%;
+    width:100%;
+}
+/*media screen*/
+@media screen and (max-width: 920px){
+.maincover{
+    margin-top:20%
+}
+.language-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+    margin-top:10%;
+    text-align:center;
+    
+}
+.logo-titles{
+    visibility: hidden;
+}
+.cards-compétences{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top:10%;
+    text-align:center;
+    
+    padding:15%;
+    
+    
+}
+
+}
